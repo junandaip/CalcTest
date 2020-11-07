@@ -7,11 +7,8 @@ import org.junit.Test;
 import static org.junit.Assert.*;
 
 public class AppTest {
-    @Test public void testCalcCancel() {
+    @Test public void testToString() {
         App classUnderTest = new App();
-        int result = 10;
-        int canc_result = result*0;
-        assertEquals(canc_result, );
-        assertNotNull("app should have a greeting", classUnderTest.getGreeting());
+        assertEquals("0",classUnderTest.toString());
     }
 }

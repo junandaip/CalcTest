@@ -4,11 +4,10 @@
 package com.junandaip.calctest;
 
 public class App {
-    public String getGreeting() {
-        return "Hello World!";
-    }
+    double hasil = 0;
 
-    public static void main(String[] args) {
-        System.out.println(new App().getGreeting());
+    @Override
+    public String toString() {
+        return "Hasil :" + this.hasil;
     }
 }
