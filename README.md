@@ -2,7 +2,7 @@
 Simple Calculator to calculate your needs
 
 ## Environment Setup
-[Java JDK 8](https://www.oracle.com/java/technologies/javase/javase-jdk8-downloads.html).
+[Java JDK 8](https://www.oracle.com/java/technologies/javase/javase-jdk8-downloads.html)
 
 [Gradle 6.7](https://gradle.org/install/)
 
@@ -13,4 +13,3 @@ Simple Calculator to calculate your needs
     gradlew run
 ## How To Test
     gradlew test
-2. Add
