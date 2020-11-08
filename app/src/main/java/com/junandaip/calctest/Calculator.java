@@ -22,6 +22,6 @@ public class Calculator {
 
     @Override
     public String toString() {
-        return String.format("%.1f", this.result);
+        return this.result+"";
     }
 }
