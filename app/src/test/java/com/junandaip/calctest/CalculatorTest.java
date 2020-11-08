@@ -23,14 +23,14 @@ public class CalculatorTest {
     @Test
     public void testAddOperation() {
         Calculator calculator = new Calculator();
-        double number = 3;
-        assertEquals("4.0", calculator.add(number));
+        double input = 3;
+        assertEquals("4.0", calculator.add(input));
     }
 
     @Test
     public void testSubtractOperation() {
         Calculator calculator = new Calculator();
-        double number = 3;
-        assertEquals("-2.0", calculator.subtract(number));
+        double input = 3;
+        assertEquals("-2.0", calculator.subtract(input));
     }
 }

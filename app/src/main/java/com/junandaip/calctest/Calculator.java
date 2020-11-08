@@ -6,16 +6,18 @@ package com.junandaip.calctest;
 public class Calculator {
     private double result = 1;
 
-    public double cancel() {
-        return this.result = 0;
+    public String cancel() {
+        return String.valueOf(this.result = 0);
     }
 
-    public double add(double number) {
-        return this.result += number;
+    public String add(double input) {
+        double calculate = this.result + input;
+        return  String.valueOf(calculate);
     }
 
-    public double subtract(double number) {
-        return this.result -= number;
+    public String subtract(double input) {
+        double calculate = this.result - input;
+        return  String.valueOf(calculate);
     }
 
     @Override
