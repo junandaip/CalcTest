@@ -1,20 +1,15 @@
-Calculator App
-Aplikasi kalkulator sederhana dengan beberapa
-fungsi seperti:
+# Calculator App
+Simple Calculator to calculate your needs
 
-Environment App
-Java JDK 1.8.0_171
+## Environment Setup
+[Java JDK 8](https://www.oracle.com/java/technologies/javase/javase-jdk8-downloads.html)
 
-Gradle 6.7
+[Gradle 6.7](https://gradle.org/install/)
 
-How It Works
-1. Cancel
-ketika dijalankan maka akan me-reset angka menjadi 0.
-
-2. Add
-ketika dijalankan maka akan menambahkan angka sesuai
-input user.
-
-3. Subtract
-ketika dijalankan maka akan mengurangi angka sesuai
-input user.
+## How To Build
+    gradlew build
+    
+## How To Run
+    gradlew run
+## How To Test
+    gradlew test
